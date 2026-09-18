@@ -1,0 +1,13 @@
+Dashboard query output evidence
+
+The query returned rows with these columns:
+
+store_name | category_name | day_of_week | month | revenue_inr
+
+Example:
+Annapurna Andheri West | Baby Care | Wednesday | 2024-01 | 83942.77
+Annapurna Andheri West | Baby Care | Monday    | 2024-01 | 108373.38
+Annapurna Andheri West | Bakery    | Tuesday   | 2024-01 | 9953.79
+
+The query successfully grouped revenue by store, product category, day of week,
+and month.

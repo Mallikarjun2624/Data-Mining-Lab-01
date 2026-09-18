@@ -1,0 +1,15 @@
+D evidence – actual terminal output supplied in the practical.
+
+March 2024 query output included:
+P100005 = 103.45
+P100007 = 129.42
+P100019 = 62.95
+P100033 = 763.12
+P100035 = 1456.57
+
+October 2024 query output included:
+P100005 = 114.37
+P100007 = 155.06
+P100019 = 74.65
+P100033 = 828.62
+P100035 = 1810.38
