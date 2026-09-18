@@ -1,0 +1,21 @@
+IDEMPOTENCY
+unique_rows=1120924
+sha256=29d274ef9fd576c27ad118923901e74fcba7b670da53793f1ad3c98c0cd64b03
+unique_rows=1120924
+sha256=29d274ef9fd576c27ad118923901e74fcba7b670da53793f1ad3c98c0cd64b03
+unique_rows=1120924
+sha256=29d274ef9fd576c27ad118923901e74fcba7b670da53793f1ad3c98c0cd64b03
+source_files=4457 source_bytes=68706877
+partition_files=144 partition_bytes=83155712
+
+AS_OF_PRICES
+2024-03-15 | Sunfeast Cookies 150g | 62.95
+2024-10-15 | Sunfeast Cookies 150g | 74.65
+
+FEDERATED_EXPLAIN
+DuckDB physical plan operators:
+SEQ_SCAN annapurna.main.fact_revenue
+POSTGRES_SCAN public.stores
+POSTGRES_SCAN public.product_categories
+HASH_JOIN store_id = store_id
+HASH_JOIN category_id = category_id
